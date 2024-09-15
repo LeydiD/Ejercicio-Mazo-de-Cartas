@@ -1,0 +1,56 @@
+#contain {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    position: relative;
+    padding: 2rem;
+    overflow: hidden;
+  }
+
+
+
+  #logear {
+    background-color: red;
+    font-family: Chelsea Market, system-ui;
+    font-weight: 400;
+  }
+
+  #logear:hover {
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .social-buttons a {
+    border: 2px solid red;
+    color: red;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 0.5rem 1rem;
+  }
+
+  .social-buttons a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .social-buttons svg {
+    fill: red;
+  }
+
+  .form-links a {
+    color: #ff0e0e;
+  }
+
+  .form-links a:hover {
+    color: #ff2b2b;
+    text-decoration: none;
+  }
+
