@@ -57,16 +57,11 @@ function mostrarEnTabla() {
   }
 }
 
-
 function guardarCarta() {
   var numero = document.querySelector('#numero').value;
   var carta = document.querySelector('#carta').value;
   var datos = localStorage.getItem('datos');
-
   datos = JSON.parse(datos);
-
-
-
   var dato = { numero: numero, carta: carta, cantidad: '0' };
 
   datos.push(dato);
